@@ -2,6 +2,7 @@ var http=require("http");
 
 var server=http.createServer(function(req,res){
 	var ip=req.connection.remoteAddress;
+	ip=ip.split(":")[3];
 	var lang=req.headers["accept-language"];
 	var userAgent=req.headers["user-agent"];
 	var os=userAgent.split("(")[1].split(")")[0];
