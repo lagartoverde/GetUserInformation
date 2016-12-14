@@ -1,0 +1,19 @@
+{
+  "name": "get-user-information",
+  "version": "1.0.0",
+  "description": "A small API that provides information about the user in a JSON format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagartoverde/GetUserInformation.git"
+  },
+  "author": "lagartoverde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lagartoverde/GetUserInformation/issues"
+  },
+  "homepage": "https://github.com/lagartoverde/GetUserInformation#readme"
+}
