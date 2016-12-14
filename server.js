@@ -12,5 +12,5 @@ var server=http.createServer(function(req,res){
 	}
 	res.end(JSON.stringify(responseObject));
 });
-server.listen("8080");
+server.listen(process.env.PORT ||8080);
 console.log("Server Running");
